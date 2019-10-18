@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 0;
+  position: relative;
+}
+
+.blog-nav {
+  margin: 1.2rem auto;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.blog-list-posts {
+  margin: 1.2rem auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.post-list{
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.post-item {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1.2rem 0;
+}
+
+.blog-footer {
+  margin: 1.2rem auto;
+  color: #dfdfdf;
+  text-align: center;
+}
+
+.social-icons {
+  color: grey;
+  padding: 0 0.5rem;
+}
