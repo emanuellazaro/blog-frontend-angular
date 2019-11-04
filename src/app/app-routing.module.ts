@@ -6,7 +6,7 @@ import { PostComponent } from './post/post.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 
-const routes: Routes = [
+const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: '', component: HomeComponent, children: [
@@ -15,7 +15,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(appRoutes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -10,6 +10,8 @@ import { PostListComponent } from './home/post-list/post-list.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CreatePostComponent } from './dashboard/create-post/create-post.component';
 import { EditPostComponent } from './dashboard/edit-post/edit-post.component';
+import { PostItemComponent } from './home/post-list/post-item/post-item.component';
+import { PostService } from './post/post.service';
 
 @NgModule({
   declarations: [
@@ -20,13 +22,14 @@ import { EditPostComponent } from './dashboard/edit-post/edit-post.component';
     PostListComponent,
     DashboardComponent,
     CreatePostComponent,
-    EditPostComponent
+    EditPostComponent,
+    PostItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [PostService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

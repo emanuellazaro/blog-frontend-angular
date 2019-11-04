@@ -1,5 +1,7 @@
 import { Post } from './post.model';
+import { Injectable } from '@angular/core';
 
+@Injectable() 
 export class PostService {
   private posts: Post[] = [
     new Post('Hello World', 'Fist blog post!', true),

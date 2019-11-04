@@ -1,8 +1,8 @@
 <div class="container content">
-  <h2>Post Title</h2>
-  <h6 class="text-muted">Published on October 10, 2019</h6>
+  <h2>{{ post.title }}</h2>
+  <h6 class="text-muted">{{ post.created_at }}</h6>
   <br>
   <div>
-    Post Content
+    {{ post.content }}
   </div>
 </div>
